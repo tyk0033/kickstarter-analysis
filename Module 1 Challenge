@@ -1,7 +1,24 @@
 #Module 1 Challenge (Sucessful Launch of Louise crowdfunding for her play "Whisper")
 
 ##Overview of Project
-The goal is to help Louise when and how much money the campaign will need to succeed when launching a crowdfunding campaign.
+The goal is to help Louise when and how much money will need to succeed when launching a crowdfunding campaign.
 
 ##Analysis and Challenges
+I had a difficulty is getting the number using COUNTIFS() as it keep showing that there was a lack of formula when defining the range. I found out that I did not wrote the Kickstarter in front when applying the later range. 
+Even though it was difficult when applying the range at first, it was easy afterwards as I only need to switch “successful” to “failed” in “Number failed” category.
 
+##Results
+###Conclusion from Theater Outcomes by Launch Date
+May is the most successful month to launch the campaign.
+December is the month that should avoid, having the least successful campaigns launched.
+
+###Conclusion from Outcomes based on Goals
+The goal of less than $1000 is the most  successful amount to launch the campaign.
+It has the highest successful rate of 75.81% as the least percentage failed of 24.19%. 
+
+###Limitation of the data set
+There is a limitation on the details of the pivotal table. It should further filter the subcategory, play. Investigating merely the theater industry as a whole is too broad as it includes musicals and spaces.
+
+###Possible tables/ and or graphs
+There should be a change in the pivotal table and graph that investigates the play industry. 
+Theater outcomes by Launch date has to be further filtered into subcategory, plays. 
